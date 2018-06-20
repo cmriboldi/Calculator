@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		5E0D003020C06331007BD6B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D002F20C06331007BD6B1 /* AppDelegate.swift */; };
-		5E0D003220C06331007BD6B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D003120C06331007BD6B1 /* ViewController.swift */; };
+		5E0D003220C06331007BD6B1 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D003120C06331007BD6B1 /* SearchViewController.swift */; };
 		5E0D003520C06331007BD6B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D003320C06331007BD6B1 /* Main.storyboard */; };
 		5E0D003720C06332007BD6B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D003620C06332007BD6B1 /* Assets.xcassets */; };
 		5E0D003A20C06332007BD6B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D003820C06332007BD6B1 /* LaunchScreen.storyboard */; };
-		5E0D004520C06332007BD6B1 /* SoyMilkManiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D004420C06332007BD6B1 /* SoyMilkManiaTests.swift */; };
-		5E0D005020C06332007BD6B1 /* SoyMilkManiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D004F20C06332007BD6B1 /* SoyMilkManiaUITests.swift */; };
+		5E0D006320C06D44007BD6B1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D006220C06D44007BD6B1 /* DetailViewController.swift */; };
+		5E0D006520C06E80007BD6B1 /* FoodProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D006420C06E80007BD6B1 /* FoodProduct.swift */; };
+		5E0D006720C07260007BD6B1 /* ProductSearchModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D006620C07260007BD6B1 /* ProductSearchModelController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +37,16 @@
 /* Begin PBXFileReference section */
 		5E0D002C20C06331007BD6B1 /* SoyMilkMania.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoyMilkMania.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E0D002F20C06331007BD6B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E0D003120C06331007BD6B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E0D003120C06331007BD6B1 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		5E0D003420C06331007BD6B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E0D003620C06332007BD6B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E0D003920C06332007BD6B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E0D003B20C06332007BD6B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E0D004020C06332007BD6B1 /* SoyMilkManiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoyMilkManiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E0D004420C06332007BD6B1 /* SoyMilkManiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoyMilkManiaTests.swift; sourceTree = "<group>"; };
-		5E0D004620C06332007BD6B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E0D004B20C06332007BD6B1 /* SoyMilkManiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoyMilkManiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E0D004F20C06332007BD6B1 /* SoyMilkManiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoyMilkManiaUITests.swift; sourceTree = "<group>"; };
-		5E0D005120C06332007BD6B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E0D006220C06D44007BD6B1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5E0D006420C06E80007BD6B1 /* FoodProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodProduct.swift; sourceTree = "<group>"; };
+		5E0D006620C07260007BD6B1 /* ProductSearchModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSearchModelController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				5E0D002E20C06331007BD6B1 /* SoyMilkMania */,
-				5E0D004320C06332007BD6B1 /* SoyMilkManiaTests */,
-				5E0D004E20C06332007BD6B1 /* SoyMilkManiaUITests */,
 				5E0D002D20C06331007BD6B1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,32 +95,57 @@
 		5E0D002E20C06331007BD6B1 /* SoyMilkMania */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D002F20C06331007BD6B1 /* AppDelegate.swift */,
-				5E0D003120C06331007BD6B1 /* ViewController.swift */,
-				5E0D003320C06331007BD6B1 /* Main.storyboard */,
-				5E0D003620C06332007BD6B1 /* Assets.xcassets */,
-				5E0D003820C06332007BD6B1 /* LaunchScreen.storyboard */,
-				5E0D003B20C06332007BD6B1 /* Info.plist */,
+				5E0D006020C06373007BD6B1 /* ViewControllers */,
+				5E0D005F20C06365007BD6B1 /* ModelController */,
+				5E0D006120C0637E007BD6B1 /* Model */,
+				5E0D005E20C06359007BD6B1 /* UI */,
+				5E0D005D20C0634B007BD6B1 /* Resources */,
 			);
 			path = SoyMilkMania;
 			sourceTree = "<group>";
 		};
-		5E0D004320C06332007BD6B1 /* SoyMilkManiaTests */ = {
+		5E0D005D20C0634B007BD6B1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D004420C06332007BD6B1 /* SoyMilkManiaTests.swift */,
-				5E0D004620C06332007BD6B1 /* Info.plist */,
+				5E0D002F20C06331007BD6B1 /* AppDelegate.swift */,
+				5E0D003620C06332007BD6B1 /* Assets.xcassets */,
+				5E0D003B20C06332007BD6B1 /* Info.plist */,
 			);
-			path = SoyMilkManiaTests;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		5E0D004E20C06332007BD6B1 /* SoyMilkManiaUITests */ = {
+		5E0D005E20C06359007BD6B1 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D004F20C06332007BD6B1 /* SoyMilkManiaUITests.swift */,
-				5E0D005120C06332007BD6B1 /* Info.plist */,
+				5E0D003320C06331007BD6B1 /* Main.storyboard */,
+				5E0D003820C06332007BD6B1 /* LaunchScreen.storyboard */,
 			);
-			path = SoyMilkManiaUITests;
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5E0D005F20C06365007BD6B1 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D006620C07260007BD6B1 /* ProductSearchModelController.swift */,
+			);
+			path = ModelController;
+			sourceTree = "<group>";
+		};
+		5E0D006020C06373007BD6B1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D003120C06331007BD6B1 /* SearchViewController.swift */,
+				5E0D006220C06D44007BD6B1 /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5E0D006120C0637E007BD6B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D006420C06E80007BD6B1 /* FoodProduct.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +279,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E0D003220C06331007BD6B1 /* ViewController.swift in Sources */,
+				5E0D006320C06D44007BD6B1 /* DetailViewController.swift in Sources */,
+				5E0D006520C06E80007BD6B1 /* FoodProduct.swift in Sources */,
+				5E0D006720C07260007BD6B1 /* ProductSearchModelController.swift in Sources */,
+				5E0D003220C06331007BD6B1 /* SearchViewController.swift in Sources */,
 				5E0D003020C06331007BD6B1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +291,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E0D004520C06332007BD6B1 /* SoyMilkManiaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +298,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E0D005020C06332007BD6B1 /* SoyMilkManiaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5P88J4SPW;
 				INFOPLIST_FILE = SoyMilkMania/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +473,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5P88J4SPW;
 				INFOPLIST_FILE = SoyMilkMania/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
